@@ -1,1 +1,15 @@
 title: Ashkan Nourzadeh
+
+collections:
+  blog:
+    output: true
+    permalink: /:collection/:name
+  defaults:
+    scope:
+      path: ""
+      type: blog
+    values:
+      layout: default
+  fa_blog:
+    output: true
+    permalink: /:collection/:name
